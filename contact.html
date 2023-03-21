@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> contact us </title>
+<style>
+*{
+padding:0;
+margin:0;
+}
+
+body{
+background-color: #55ffe5;
+font-size: 14px;
+}
+.container{
+    width:80%
+    margin:50px;
+}
+.contact-box{
+   background:#fff;
+   display:flex;
+   margin-top:50px;
+   width:70%;
+   margin-left:200px;
+}
+.contact-left{
+  flex-basic:60%;
+  padding: 40px 60px;
+  margin-left:10px;
+  
+  
+}
+.contact-right{
+  flex-basic:50%;
+ padding: 40px 60px;
+  background:#1c00b5;
+  color:#fff;
+  margin-left:200px;
+  font-size:20px;
+}
+.p{
+margin-left:500px;
+margin-top:15px;
+}
+.input-row{
+  justify-conent: space-between;
+  margin-top:20px;
+  
+}
+.input-row .input-group{
+      flex-basic:20%;
+		width:125px;
+		color:black;
+		font-size:18px;
+		font-weight:700;
+}
+input{
+ 
+  border-bottom:1px solid #ccc:
+ padding-bottom: 5px;
+  
+position:relative;
+margin-left:100px;
+top:-25px;
+width:250px;
+ line-height:20px;
+ padding:0 10px;
+ font-size:16px;
+border-radius:6px;
+		 
+		
+}
+.m{
+padding:10px 20px;
+
+}
+button{
+   background:green;
+   width:100px;
+   border: none;
+   color: #fff;
+   hight:35px;
+   border-radius:30px;
+   margin-top:20px;
+   padding:10px;
+   margin-left:150px;
+}
+tr td:Firts child{
+  padding-right:50px;
+}
+.reach{
+margin-top:5px;
+}
+</style>
+</head>
+<body>
+ <div class="container">
+     <h1 class="p">Connect With Us</h1>
+	
+	 
+	   <div class="contact-box">
+	    <div class="contact-left">
+		 <h3 style=" font-size:24px;">Sent your request</h3> 
+		<form action="contact.php" method="POST" enctype="multipart/form-data" >
+		     <div class="input-row">
+			 <div class="input-group">
+		      <label>Name</label>
+			 <input type="text" name="name" placeholder="Enter your name"required>
+			 </div>
+			 <div class="input-group">
+		      <label>Phone</label>
+			 <input type="digit"name="phone"placeholder="+91"required>
+			 </div>
+			 <div class="input-group">
+		      <label>Emailid</label>
+			 <input type="email"name="emailid"placeholder=" @gmail.com" required>
+			 </div>
+			 <div class="input-group">
+		      <label>Message</label>
+			 <input class="m"type="text"name="message"placeholder="Your message"required>
+			 
+			 </div>
+			 <button type="submit"name="submit">Send</button>
+		 </form>
+		 </div>
+		 </div>
+		<div class="contact-right">
+		<h3>Reach us</h3>
+		<table class="reach">
+		  <tr>
+		     <td> Email:-</td>
+			 <td>abhishek.gcarn@gmail.com</td>
+			 </tr>
+			 
+			 <tr>
+		     <td>Phone:-</td>
+			 <td>+917061964974</td>
+			 </tr>
+			 
+			 <tr>
+		     <td>Address:-</td>
+			 <td><br>Kalyani,Block.B14/84,Nadia,
+			 West-bengal,(741235). <br></td>
+			 </tr>
+		</table>
+			 
+			 
+		</div>
+	 
+</body>
+</html>

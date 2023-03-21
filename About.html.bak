@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About us</title>
+<style>
+*{
+padding:0;
+margin:0;
+}
+body{
+background-color: #55ffe5;
+}
+.container{
+ margin-left:15px;
+ margin-top:10px;
+ font-size:20px;
+ margin-left:30px;
+}
+.title{
+ float:right;
+ font-size:20px;
+ margin-top:-120px;
+ margin-right:20px;
+}
+.H{
+  font-size:20px;
+   margin-left:15px;
+  margin-top:20px;
+  margin-left:30px;
+}
+.L{
+  font-size:20px;
+  margin-left:35%;
+  margin-top:20px;
+}
+</style>
+</head>
+<body>
+   <div class="container">
+   <h2>Personal Information</h2
+   <table>
+		  <tr>
+		     <td> Gender: Male<br> 
+   Date of Birth: 10/12/2001<br>
+   Nationality: Indian <br>
+   Domicile: Bihar<br>
+   Languages Known: English, Hindi, 
+ Maithili 
+  </td>
+  </tr>
+  </table>
+  
+  
+  <div class="title">
+  <h2> skills</h2>
+    <table>
+	<tr>
+		     <td><br>Technical Skills:<br>
+			 C <br>
+ Object oriented Programming(JAVA)<br>
+ Web devloping<br>
+ <br>
+   Non-Technical Skills:<br>
+  Working of MS Word, 
+  Excel, Power-point <br>
+  Leadership<br>
+  Quick Learner <br>
+  Can work Under Pressure<br>  
+  Problem solving skills 
+  </td>
+  </tr>
+  </table>
+  </div>
+  </div>
+  <div class="H">
+   <h2>Hobbies:</h2>
+  <table>
+  <tr>
+  <td>
+  
+  </td> Playing Cricket, Badminton <br>
+   Playing PC and Mobile game <br>
+   Reading Story Books<br> 
+   Travelling
+  </tr>
+   </table>
+   </div>
+   <div class="L">
+   <h2>Declaration:</h2>
+  <table>
+  <tr>
+  <td>I hereby declare that the information given above is <br>
+  true and correct to the best of my knowledge. 
+
+   </td> 
+  </tr>
+   </table>
+   </div>
+   
+
+</body>
+</html>

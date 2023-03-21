@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<title> portfolio website </title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+{
+padding:0;
+margin:0;
+}
+body{
+background: url("back.jpeg");
+background-size: cover;
+background-position:center;
+background-repeat: no-repeat;
+margin-top:0px;
+}
+ul{
+
+list-style-type:none;
+float:right;
+}
+ul li{
+display:inline-block;
+}
+ul li a{
+text-decoration:none;
+color:#fff;
+padding:5px 20px;
+margin-top:25px;
+margin-left:55px;
+cursor:pointer;
+transition:0.25px;
+background-color:#000000;
+border:1px solid #fff;
+margin:20px 0px 0px 20px;
+}
+ul li a:hover{
+		background-color:green;}
+ #logo{
+	 width:300px;
+	 height:400px;
+	 float:right;
+	 margin-top:160px;
+	 margin-right:-350px;
+	 border:2px solid #366473;
+	 background-repeat: no-repeat;
+	 cursor:pointer;
+	 } 
+.title{
+    position: absolute;
+	top: 35%;
+	left: 10%;
+}
+.title h2{
+  color:#fff;
+  font-size:25px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+background: #a10e0e;
+  color: white;
+}
+.fa-linkedin {
+  background: #1e1d40;
+  color: white;
+}
+
+</style>
+ </head>
+<body>
+
+  
+       <ul>
+	      <li><a href="index.html">Home</a></li>
+		   <li><a href="About.html">About</a></li>
+		   <li><a href="contact.html">Contact</a></li>
+		</ul>
+		   <img id="logo" src="d.jpeg">
+	<div class="title">
+	<h2> Hello, my name is</h2>     
+    <h2>Deepak kumar jha </h2>
+	<h2>And i'm a <t  style="color:green; font-size:28px;" > BCA Student</t></h2>
+	
+	<div class="centerdiv">
+	 <a href="https://www.facebook.com/deepak.dimon" >
+	 <i class="fa fa-facebook"></i>
+	 </a>
+	 <a href="https://www.instagram.com/jhadeepak7296/" class="fa fa-instagram"></a>
+	 <a href="https://www.linkedin.com/in/deepak-jha-a86810198" class="fa fa-linkedin"></a>
+	</div>
+</body>
+</html>
