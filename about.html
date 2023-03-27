@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>ABOUT US</h1>
+<button style="background-color:rgba(255, 145, 0, 0.881); border-color:black; color:white;" type="button" class="login-btn"><a href="index.html">HOME</a></button>
+<hr>
+<p>Artville Designers is interior-designing online retailer based in India.With customers in 50 cities arpound the world.We have started a global movement within the interior-designing industry to help your and yours to make your own small world looks attractive. </p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/pics08.jpeg" alt="Mountains" style="width:100%">
+      <h3>Ideas</h3>
+      <p>We have better ideas and experience in the world</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/pics11.jpeg" alt="Lights" style="width:100%">
+      <h3>Designs</h3>
+      <p>We design best modern interior of your small world.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/pics10.jpg" alt="Nature" style="width:100%">
+      <h3>Trust</h3>
+      <p>You can trust us for the work which you have given.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/pics09.jpg" alt="Mountains" style="width:100%">
+      <h3>Time</h3>
+      <p>We work as fast as we can to ready your project.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  
+  <h3>Request</h3>
+  <p>Lets give us a chance to make your ugly looking interior to your modern and cool looking interior of your home.</p>
+  <button style="background-color:rgba(255, 145, 0, 0.881); border-color:black; color:white;" type="button" class="login-btn"><a href="Login_p.html">Login</a></button>
+  <button style="background-color:rgba(255, 145, 0, 0.881); border-color:black; color:white;" type="button" class="login-btn"><a href="register.html">Register</a></button>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
